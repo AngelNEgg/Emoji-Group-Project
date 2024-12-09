@@ -19,7 +19,7 @@ def draw(canvas):
     canvas.draw_circle(((width/2) +33,(height/2) -30), 10, 10, "white")
     canvas.draw_circle(((width/2) -30,(height/2) -30), 10, 10, "white")
 
-# face 3 ()
+# face 3 (Nafisa)
   canvas.draw_circle((width/2, height/2), width/2 - 50, 10, "#ADD8E6", "#ADD8E6")
   canvas.draw_circle((width/3,height/2), width/20 + 5, 10, "Black", "Black")
   canvas.draw_circle((width/1.5 + 15, height/2), width/20 + 5, 10, "Black", "Black")
