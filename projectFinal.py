@@ -13,11 +13,11 @@ def draw(canvas):
   canvas.draw_line((width/2-50,height/2+25),(width/2+50,height/2+25), 5, "brown")
   
 # face 2 (Sheldon)
-    canvas.draw_circle((width/2,height/2), 50, 30, "black", "black")
-    canvas.draw_circle((width/2,height/2), 80, 30, "black")
-    canvas.draw_circle((width/2,(height/2) +33), 5, 50, "white")
-    canvas.draw_circle(((width/2) +33,(height/2) -30), 10, 10, "white")
-    canvas.draw_circle(((width/2) -30,(height/2) -30), 10, 10, "white")
+  canvas.draw_circle((width/2,height/2), 50, 30, "black", "black")
+  canvas.draw_circle((width/2,height/2), 80, 30, "black")
+  canvas.draw_circle((width/2,(height/2) +33), 5, 50, "white")
+  canvas.draw_circle(((width/2) +33,(height/2) -30), 10, 10, "white")
+  canvas.draw_circle(((width/2) -30,(height/2) -30), 10, 10, "white")
 
 # face 3 (Nafisa)
   canvas.draw_circle((width/2, height/2), width/2 - 50, 10, "#ADD8E6", "#ADD8E6")
