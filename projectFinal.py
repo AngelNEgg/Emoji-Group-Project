@@ -1,5 +1,8 @@
 import simplegui
 
+height = 600
+width = 600
+
 # face 1
 
 # face 2
@@ -12,4 +15,5 @@ import simplegui
 
 # frame setup
 
+frame = simplegui.create_frame("Emojis", width, height)
 frame.start()
