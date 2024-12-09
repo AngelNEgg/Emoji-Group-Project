@@ -12,8 +12,13 @@ def draw(canvas):
   canvas.draw_circle((xmax/2+25,ymax/2-25), 5, 10, "Black")
   canvas.draw_line((xmax/2-50,ymax/2+25),(xmax/2+50,ymax/2+25), 5, "brown")
   
-# face 2
-  
+# face 2 Sheldon
+    canvas.draw_circle((width/2,height/2), 50, 30, "black", "black")
+    canvas.draw_circle((width/2,height/2), 80, 30, "black")
+    canvas.draw_circle((width/2,(height/2) +33), 5, 50, "white")
+    canvas.draw_circle(((width/2) +33,(height/2) -30), 10, 10, "white")
+    canvas.draw_circle(((width/2) -30,(height/2) -30), 10, 10, "white")
+
 # face 3
   
 # face 4
