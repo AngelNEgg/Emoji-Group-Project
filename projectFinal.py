@@ -1,3 +1,8 @@
+# Angel, Sheldon, Nafisa, Neelam
+# 12/9/2024
+# Period 5-6
+'''Emoji Group Project'''
+
 import simplegui
 
 height = 600
