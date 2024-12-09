@@ -7,10 +7,10 @@ scale = 0.25
 def draw(canvas):
   
 # face 1 (Angel)
-  canvas.draw_circle((xmax/2,ymax/2), 100, 10, "#fcb503", "#fcd703")
-  canvas.draw_circle((xmax/2-25,ymax/2-25), 5, 10, "Black")
-  canvas.draw_circle((xmax/2+25,ymax/2-25), 5, 10, "Black")
-  canvas.draw_line((xmax/2-50,ymax/2+25),(xmax/2+50,ymax/2+25), 5, "brown")
+  canvas.draw_circle((width/2,height/2), 100, 10, "#fcb503", "#fcd703")
+  canvas.draw_circle((width/2-25,height/2-25), 5, 10, "Black")
+  canvas.draw_circle((width/2+25,height/2-25), 5, 10, "Black")
+  canvas.draw_line((width/2-50,height/2+25),(width/2+50,height/2+25), 5, "brown")
   
 # face 2 (Sheldon)
     canvas.draw_circle((width/2,height/2), 50, 30, "black", "black")
